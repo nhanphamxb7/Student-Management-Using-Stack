@@ -1,0 +1,29 @@
+PUSH
+Nguyen van   A
+1951234
+20
+8.3 7.5 6.4 7.3
+PUSH
+Pham   Thi huong
+1851096
+21
+7.9 9.3 5.3 6.5
+PUSH
+La   thanh    nghia
+1951009
+20
+8.9 5.3 8.3 5.8
+PUSH
+   Tran Thanh        tam
+1752005
+22
+7.2 4.6 9.2 8.2
+PEEK
+SEARCH name pham thi huong
+SEARCH id 1752005
+POP
+EMPTY
+POP
+POP
+EMPTY
+END

@@ -1,0 +1,65 @@
+SYMBOL EXPLANATION:
+(!): Data is not valid
+(P): Pass
+(F): Fail
+
+-> A student info was PUSHED to stack
+      Name : Nguyen Van A
+      ID   : 1951234
+      Age  : 20
+      Math: 8.30 (P), Physics: 7.50 (P), Chemistry: 6.40 (P), Electronic: 7.30 (P)
+
+-> A student info was PUSHED to stack
+      Name : Pham Thi Huong
+      ID   : 1851096
+      Age  : 21
+      Math: 7.90 (P), Physics: 9.30 (P), Chemistry: 5.30 (P), Electronic: 6.50 (P)
+
+-> A student info was PUSHED to stack
+      Name : La Thanh Nghia
+      ID   : 1951009
+      Age  : 20
+      Math: 8.90 (P), Physics: 5.30 (P), Chemistry: 8.30 (P), Electronic: 5.80 (P)
+
+-> A student info was PUSHED to stack
+      Name : Tran Thanh Tam
+      ID   : 1752005
+      Age  : 22
+      Math: 7.20 (P), Physics: 4.60 (F), Chemistry: 9.20 (P), Electronic: 8.20 (P)
+
+-- Info of TOP student on stack
+      Name : Tran Thanh Tam
+      ID   : 1752005
+      Age  : 22
+      Math: 7.20 (P), Physics: 4.60 (F), Chemistry: 9.20 (P), Electronic: 8.20 (P)
+
+** Found "Pham Thi Huong" in stack
+      Related info: id 1851096, age 21
+      Math: 7.20 (P), Physics: 4.60 (F), Chemistry: 9.20 (P), Electronic: 8.20 (P)
+
+** Found id "1752005" in stack
+      Related info: name Tran Thanh Tam, age 22
+      Math: 7.20 (P), Physics: 4.60 (F), Chemistry: 9.20 (P), Electronic: 8.20 (P)
+
+<- A student info was POP out of stack
+      Name : Tran Thanh Tam
+      ID   : 1752005
+      Age  : 22
+      Math: 7.20 (P), Physics: 4.60 (F), Chemistry: 9.20 (P), Electronic: 8.20 (P)
+
+There are currently 3 students left in stack
+
+<- A student info was POP out of stack
+      Name : La Thanh Nghia
+      ID   : 1951009
+      Age  : 20
+      Math: 8.90 (P), Physics: 5.30 (P), Chemistry: 8.30 (P), Electronic: 5.80 (P)
+
+<- A student info was POP out of stack
+      Name : Pham Thi Huong
+      ID   : 1851096
+      Age  : 21
+      Math: 7.90 (P), Physics: 9.30 (P), Chemistry: 5.30 (P), Electronic: 6.50 (P)
+
+There is currently 1 student left in stack
+
